@@ -3,9 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TK Photography</title>
+
+    <meta name="author" content="Michael Johnson">
+    <meta name="description" content="TK Photography Photo Gallery Website">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header id="top">
+        <h1>TK Photography</h1>
+    </header>
+    <nav>
+        <h2>Main Navigation</h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery<br/>Songs</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#top">top</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h3>About</h3>
+            <p>Hello! 
+                I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my speciality and it's taken me all over the world. 
+                </p>
+        </section>
+
+        <section id="gallery">
+            <h3>Gallery</h3>
+            <p>Here are some highlights of my work. The locations and year are in the caption. </p>
+
+            <figure>
+                <img src="images/Chile.png" alt="photo of Chile">
+                <figcaption>Chile, 2001</figcaption>
+            </figure>
+
+            <figure>
+                <figcaption>Guatemala, 1997</figcaption>
+                <img src="images/Guatemala.png" alt="photo of Guatemala">
+            </figure>
+
+            <figure>
+                <img src="images/Hawaii.png" alt="photo of Hawaii">
+                <figcaption>Hawaii, 2010</figcaption>
+            </figure>
+
+            <figure>
+                <figcaption>Iran, 1999</figcaption>
+                <img src="images/Iran.png" alt="photo of Iran">
+            </figure>
+
+            <figure>
+                <figcaption>Ireland, 2012</figcaption>
+                <img src="images/Ireland.png" alt="photo of Ireland">
+            </figure>
+
+            <figure>
+                <img src="images/Italy.png" alt="photo of Italy">
+                <figcaption>Italy, 2015</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/Moab-Desert.png" alt="photo of Moab Desert">
+                <figcaption>Moab-Desert, 2020</figcaption>
+            </figure>
+
+            <figure>
+                <figcaption>Rocky Mountains, 2009</figcaption>
+                <img src="images/Rocky-Mountains.png" alt="photo of Rocky Mountains">
+            </figure>
+
+            <figure>
+                <figcaption>Switzerland, 2014</figcaption>
+                <img src="images/Switzerland.png" alt="photo of Switzerland"> 
+            </figure>
+
+            <figure>
+                <figcaption>UK, 2005</figcaption>
+                <img src="images/UK.png" alt="photo of UK">  
+            </figure>
+
+            <figure>
+                <figcaption>USA, 2021</figcaption>
+                <img src="images/USA.png" alt="photo of USA">
+            </figure>
+
+            <figure>
+                <figcaption>Wyoming, 2021</figcaption>
+                <img src="images/Wyoming.png" alt="photo of Wyoming">
+            </figure>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <p>Please fill out this form and I'll connect with you soon.</p>
+
+            <form action="" method="POST">
+                <legend>Your Contact Information</legend>
+                <label for="name">Name </label>
+                <br>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="email">Email Address </label>
+                <br>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="message">Message </label>
+                <br>
+                <textarea name="message" id="message"></textarea>
+                <br>
+                <input type="submit" name="my-submit" id="my-submit">
+            </form>
+        </section>
+
+        <footer>
+            <p><small>Copyright &copy;2021 TK Photography</small></p>
+        </footer>
+    </main>
 </body>
 </html>
