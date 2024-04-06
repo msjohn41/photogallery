@@ -122,7 +122,7 @@ section h2{
 }
 #gallery img{
     margin: auto;
-    padding: 5px;
+    padding: 10px;
     display: block;
 }
 figcaption{
@@ -163,19 +163,47 @@ fieldset{
     align-items: center;
 }
 input[type="submit"]{
+    margin: auto;
 	background-color: #007d7b;
     text-transform: uppercase;
     font-weight: bold;
-	border: none;
-    border-radius: 20%;
+    border: none;
 	color: #fff;
+    width: 50%;
 }
 
 /* FOOTER */
 footer{
-    padding: 25px;
+    padding-top: 50px;
     background-color: #000000;
     color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+}
+
+/* MEDIA */
+
+@media screen and (min-width: 880px){
+    body{
+        width: 880px;
+    }
+    header{
+        text-align: left;
+    }
+    #photo-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1300px){
+    body{
+        width: 1300px;
+    }
+    nav ul{
+        text-align: right;
+    }
+    #photo-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
