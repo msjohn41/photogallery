@@ -125,11 +125,21 @@ section h2{
     padding: 10px;
     display: block;
 }
+#chile, #guatemala, #hawaii, #moab, #wyoming {
+    color: #ffffff;
+}
 figcaption{
     text-transform: uppercase;
     text-align: center;
 }
-
+.figcaptionbottom{
+    position: relative;
+    top: -40px;
+}
+.figcaptiontop{
+    position: relative;
+    top: 40px;
+}
 /* CONTACT */
 #contact{
     background-color: #000000;
@@ -201,6 +211,9 @@ footer{
     }
     nav ul{
         text-align: right;
+    }
+    #gallery img{
+        padding: 0;
     }
     #photo-grid{
         display: grid;
