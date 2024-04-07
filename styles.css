@@ -115,6 +115,9 @@ nav li{
     padding: 5px;
     margin: 5px;
   }
+  nav a:hover {
+    color: #007d7b;
+  }
 
 /* MAIN */
 section h2{
@@ -132,16 +135,22 @@ figcaption{
     text-transform: uppercase;
     text-align: center;
 }
+#ireland, #iran {
+    position: relative;
+    bottom: 615px;
+}
 .figcaptionbottom{
     position: relative;
     top: -40px;
 }
 .figcaptiontop{
     position: relative;
-    top: 40px;
+    bottom: 270px;
 }
+
 /* CONTACT */
 #contact{
+    padding: 10px;
     background-color: #000000;
     color: #ffffff;
 }
@@ -164,6 +173,7 @@ input, label, select, textarea{
 input{
     color: #007d7b;
     padding: 5px;
+    font-weight: bold;
 }
 fieldset{
 	display: grid;
@@ -180,6 +190,7 @@ input[type="submit"]{
     border: none;
 	color: #fff;
     width: 50%;
+    border-radius: 15px;
 }
 
 /* FOOTER */
